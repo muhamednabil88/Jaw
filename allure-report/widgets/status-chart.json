@@ -1,0 +1,651 @@
+[ {
+  "uid" : "1503e5f932d45f2a",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090367,
+    "stop" : 1684225090367,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "911ea884bc9ec596",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090496,
+    "stop" : 1684225090497,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ebec1b81fc3ab097",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090529,
+    "stop" : 1684225090529,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "41d4de21312d73d1",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684224780866,
+    "stop" : 1684225090309,
+    "duration" : 309443
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b7e45dc69ed58a8a",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090518,
+    "stop" : 1684225090519,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a77b3e7695fcd50c",
+  "name" : "changeLanguageToEnglish",
+  "time" : {
+    "start" : 1683109452814,
+    "stop" : 1683109463716,
+    "duration" : 10902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e25d1934e2c0c149",
+  "name" : "User_Can_Login_Successfully",
+  "time" : {
+    "start" : 1684224744703,
+    "stop" : 1684224759593,
+    "duration" : 14890
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9eb30a0312724e9",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090533,
+    "stop" : 1684225090534,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "73f710b8afc596ba",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090491,
+    "stop" : 1684225090491,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "60ec9d7d91943ce4",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1683885298894,
+    "stop" : 1683885365924,
+    "duration" : 67030
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b425370dabacdef4",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684064532848,
+    "stop" : 1684064532849,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b18187e7b64bf545",
+  "name" : "changeLanguageToEnglish",
+  "time" : {
+    "start" : 1683109432433,
+    "stop" : 1683109443101,
+    "duration" : 10668
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3bf2a2f8f0152e4",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684064532853,
+    "stop" : 1684064532853,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "46d6b7138ffbe7f9",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090508,
+    "stop" : 1684225090509,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b554a72ed70321f3",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684135288098,
+    "stop" : 1684135288098,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "71225097d2736bbf",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090460,
+    "stop" : 1684225090460,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c82fbb38b534643d",
+  "name" : "openBrowser",
+  "time" : {
+    "start" : 1683819296018,
+    "stop" : 1683819296020,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f954546cb46c3d80",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684064532859,
+    "stop" : 1684064532859,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9bff4e5a2e5adfdc",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1683885556548,
+    "stop" : 1683885625464,
+    "duration" : 68916
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "613919b779f01baf",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684064256979,
+    "stop" : 1684064331456,
+    "duration" : 74477
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ae1e9de9bf8633f",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684135288102,
+    "stop" : 1684135288102,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4abfeebf08f695f",
+  "name" : "changeLanguageToEnglish",
+  "time" : {
+    "start" : 1683109413259,
+    "stop" : 1683109424566,
+    "duration" : 11307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2f3958fe0d1c4cc",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684064532851,
+    "stop" : 1684064532851,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ed099d1f863d9f76",
+  "name" : "changeLanguageToEnglish",
+  "time" : {
+    "start" : 1683109375896,
+    "stop" : 1683109386279,
+    "duration" : 10383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dfc8ccee4d7f7c7",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090386,
+    "stop" : 1684225090386,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6f53f8f61d3af744",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090396,
+    "stop" : 1684225090396,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "523dff6cd5aed55",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090514,
+    "stop" : 1684225090514,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "79b2909cfbddb8d0",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1683885489299,
+    "stop" : 1683885556415,
+    "duration" : 67116
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d76c9528c34f342b",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090406,
+    "stop" : 1684225090406,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1bff7bda5fb7505a",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090354,
+    "stop" : 1684225090354,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "dc9f2f179615491b",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684135288117,
+    "stop" : 1684135288117,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "aaf0bd474e4f7fd5",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684135288093,
+    "stop" : 1684135288094,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "fc1ca787825b53e0",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090381,
+    "stop" : 1684225090381,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e9f6ec247bfc742f",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090502,
+    "stop" : 1684225090503,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a66097ceb8dfb9e6",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090391,
+    "stop" : 1684225090391,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a44fd3431cb95258",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684061685065,
+    "stop" : 1684061685066,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ef45767b8abc6cb1",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1683885366067,
+    "stop" : 1683885434046,
+    "duration" : 67979
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f01f5b04f4712311",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090372,
+    "stop" : 1684225090372,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f15889133b3d0df6",
+  "name" : "screenshotOnFailure",
+  "time" : {
+    "start" : 1684225090346,
+    "stop" : 1684225090347,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7a1a087d1590636c",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090484,
+    "stop" : 1684225090485,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "fe00de62a8835d5e",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090469,
+    "stop" : 1684225090469,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a2d7505a2be6e8fa",
+  "name" : "tearDown",
+  "time" : {
+    "start" : 1683109065744,
+    "stop" : 1683109065744,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f1ba49b8c0bb0d",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684144861423,
+    "stop" : 1684145209703,
+    "duration" : 348280
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5e6c6907dc185978",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684135288106,
+    "stop" : 1684135288106,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f8165758c19eb3dd",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090474,
+    "stop" : 1684225090474,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9a6ecbeef6ba8070",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090479,
+    "stop" : 1684225090479,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1c4b3aa60d9991ae",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090376,
+    "stop" : 1684225090377,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "fbac9e6bc45d019b",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090361,
+    "stop" : 1684225090361,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cb3e16ad526a9261",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1683885227024,
+    "stop" : 1683885298780,
+    "duration" : 71756
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7231667ddc1a8443",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1683885159134,
+    "stop" : 1683885226861,
+    "duration" : 67727
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "20425ac9a46cd0bb",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684135288111,
+    "stop" : 1684135288111,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c09ff873f494aa3e",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1683887348280,
+    "stop" : 1683887437283,
+    "duration" : 89003
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "40815bde9ac68965",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684064331565,
+    "stop" : 1684064403691,
+    "duration" : 72126
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "19aeab7742a1d767",
+  "name" : "User_Enter_Payroll_Module",
+  "time" : {
+    "start" : 1684224759699,
+    "stop" : 1684224777512,
+    "duration" : 17813
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1603c3ba520fd673",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684064475496,
+    "stop" : 1684064532837,
+    "duration" : 57341
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c288b56060e4c1ec",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090401,
+    "stop" : 1684225090401,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f64cc291cd2a8fc1",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090451,
+    "stop" : 1684225090452,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "88a10fafdb0de052",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1683880054506,
+    "stop" : 1683880127502,
+    "duration" : 72996
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "80352addf7bcd20b",
+  "name" : "changeLanguageToEnglish",
+  "time" : {
+    "start" : 1683109394738,
+    "stop" : 1683109405197,
+    "duration" : 10459
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5944ff8d1324e097",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1683881967070,
+    "stop" : 1683882019118,
+    "duration" : 52048
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2445b1a028a8e8cc",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684225090523,
+    "stop" : 1684225090524,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1d87a225da58788",
+  "name" : "changeLanguageToEnglish",
+  "time" : {
+    "start" : 1683109272778,
+    "stop" : 1683109272779,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2a62c246ea4ec35",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1683885625598,
+    "stop" : 1683885693165,
+    "duration" : 67567
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3bccf29787f4de3",
+  "name" : "Fill_Allowence_Data_Request",
+  "time" : {
+    "start" : 1684064532856,
+    "stop" : 1684064532857,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "37cc6fce0a88869a",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1683109272501,
+    "stop" : 1683109272502,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

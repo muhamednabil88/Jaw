@@ -1,0 +1,306 @@
+{
+  "uid" : "f64cc291cd2a8fc1",
+  "name" : "Fill_Allowence_Data_Request",
+  "fullName" : "tests.AllowenceRequestTest.Fill_Allowence_Data_Request",
+  "historyId" : "a10d47305050efee28f34c23025e41f3",
+  "time" : {
+    "start" : 1684225090451,
+    "stop" : 1684225090452,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6f8a3b091e1bfc080f1ee0abf545eca3, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:56131}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56131/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 6f8a3b091e1bfc080f1ee0abf545eca3",
+  "statusTrace" : "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6f8a3b091e1bfc080f1ee0abf545eca3, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:56131}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56131/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 6f8a3b091e1bfc080f1ee0abf545eca3\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)\r\n\tat utilities.Helper.captureScreenshot(Helper.java:24)\r\n\tat tests.TestBase.screenshotOnFailure(TestBase.java:66)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)\r\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)\r\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)\r\n\tat org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)\r\n\tat org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1507)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:829)\r\n\tat org.testng.TestRunner.run(TestRunner.java:602)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:437)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:330)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1176)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1099)\r\n\tat org.testng.TestNG.run(TestNG.java:1067)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openBrowser",
+    "time" : {
+      "start" : 1684224716668,
+      "stop" : 1684224744482,
+      "duration" : 27814
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "screenshotOnFailure",
+    "time" : {
+      "start" : 1684225090457,
+      "stop" : 1684225090457,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1684225090544,
+      "stop" : 1684225098231,
+      "duration" : 7687
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.AllowenceRequestTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.AllowenceRequestTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Fill_Allowence_Data_Request"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Selenium Framework"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.AllowenceRequestTest"
+  }, {
+    "name" : "host",
+    "value" : "Abdelrahman-Zahran"
+  }, {
+    "name" : "thread",
+    "value" : "21612@Abdelrahman-Zahran.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "T13"
+  }, {
+    "name" : "arg1",
+    "value" : "\"أفراد\""
+  }, {
+    "name" : "arg2",
+    "value" : "بدل فرق ساعات عمل"
+  }, {
+    "name" : "arg3",
+    "value" : "1/3/2022"
+  }, {
+    "name" : "arg4",
+    "value" : "فرد 11019"
+  }, {
+    "name" : "arg5",
+    "value" : "679.00"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "64f6f67b6de6b1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684222684252,
+        "stop" : 1684222770589,
+        "duration" : 86337
+      }
+    }, {
+      "uid" : "59d926a80a1477d",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f5ac91db70edecd8fb805217b54fb4b9, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:54546}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54546/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f5ac91db70edecd8fb805217b54fb4b9",
+      "time" : {
+        "start" : 1684167421831,
+        "stop" : 1684167421831,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e85e6e3c3f9f8e73",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_604\" style=\"display: block;\">...</div>\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f3579d1cb42d365c32d6c8749f37d70a, clickElement {id=C7680F976E105960AF2B7E7AA29FC6E5_element_46}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:54406}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54406/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (f3579d1cb42d365c32d6c8749f37d70a)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: f3579d1cb42d365c32d6c8749f37d70a",
+      "time" : {
+        "start" : 1684167056072,
+        "stop" : 1684167057265,
+        "duration" : 1193
+      }
+    }, {
+      "uid" : "268a5e0a2341d294",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_604\" style=\"display: block;\">...</div>\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d7f43fa69e604f1b2c0d605f737952ec, clickElement {id=5D2CDD069D033C6F0DFF3DA579DE04D2_element_45}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:54301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54301/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (d7f43fa69e604f1b2c0d605f737952ec)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: d7f43fa69e604f1b2c0d605f737952ec",
+      "time" : {
+        "start" : 1684166595001,
+        "stop" : 1684166596207,
+        "duration" : 1206
+      }
+    }, {
+      "uid" : "72d962d7a708f9d0",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found\n  (Session info: chrome=113.0.5672.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [78b149f2ca50ac0f6b4f027cde739bdb, isElementDisplayed {id=1283A52DB2DDD70743BE995852E70EFA_element_886}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:53522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53522/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (78b149f2ca50ac0f6b4f027cde739bdb)] -> css selector: div[class='o_statusbar_buttons'] button[class='btn btn-sm btn-default']]\nSession ID: 78b149f2ca50ac0f6b4f027cde739bdb",
+      "time" : {
+        "start" : 1684164075860,
+        "stop" : 1684164105278,
+        "duration" : 29418
+      }
+    }, {
+      "uid" : "358ffa95a7a088af",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_604\" style=\"display: block;\">...</div>\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4ab527075983707ccd8773139b466cd1, clickElement {id=4530F73BD12B1FF737D80F2A8CE4A846_element_46}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:53439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53439/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (4ab527075983707ccd8773139b466cd1)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 4ab527075983707ccd8773139b466cd1",
+      "time" : {
+        "start" : 1684163405167,
+        "stop" : 1684163406340,
+        "duration" : 1173
+      }
+    }, {
+      "uid" : "58787fa7010893f6",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [82107c9efccfd0169bf92660f9266b3b, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:53297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53297/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 82107c9efccfd0169bf92660f9266b3b",
+      "time" : {
+        "start" : 1684163069954,
+        "stop" : 1684163069955,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1c59059f433b52b7",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0de5fb8d11b5c306b05a18d850cab940, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:60205}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60205/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0de5fb8d11b5c306b05a18d850cab940",
+      "time" : {
+        "start" : 1684145209818,
+        "stop" : 1684145209819,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9b301f69f3067b0",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [02ab9b84985ed19a7997c1dbd6ecf8ee, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:59804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59804/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 02ab9b84985ed19a7997c1dbd6ecf8ee",
+      "time" : {
+        "start" : 1684142769257,
+        "stop" : 1684142769257,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "433e0d79b0d71f52",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [075a80d1a3c90b28895eaaef833b50b5, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:59410}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59410/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 075a80d1a3c90b28895eaaef833b50b5",
+      "time" : {
+        "start" : 1684141739786,
+        "stop" : 1684141739786,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3f9638004f5ef199",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3394a4f3b433fb9dd0ca69c71ed0a273, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:58949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58949/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3394a4f3b433fb9dd0ca69c71ed0a273",
+      "time" : {
+        "start" : 1684140719105,
+        "stop" : 1684140719105,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8e1ebd1ca4f07c88",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [baaf7d0586336d68e8a3f6640c13cb36, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:56987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56987/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: baaf7d0586336d68e8a3f6640c13cb36",
+      "time" : {
+        "start" : 1684135288059,
+        "stop" : 1684135288060,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f74289c4472cb93f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684076527276,
+        "stop" : 1684076599498,
+        "duration" : 72222
+      }
+    }, {
+      "uid" : "c6d00ddf7ea3fc9f",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [11291a49b2ec3f5f25deb99c2efd22da, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55709/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 11291a49b2ec3f5f25deb99c2efd22da",
+      "time" : {
+        "start" : 1684075614739,
+        "stop" : 1684075614739,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b6bff7718b1cf361",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9dda03e85c4cbccb9275dd5e607b752f, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55305}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55305/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9dda03e85c4cbccb9275dd5e607b752f",
+      "time" : {
+        "start" : 1684074047294,
+        "stop" : 1684074047294,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3b6ba7b762390fce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684067603688,
+        "stop" : 1684067675906,
+        "duration" : 72218
+      }
+    }, {
+      "uid" : "97538eb89928eb2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684064035318,
+        "stop" : 1684064108026,
+        "duration" : 72708
+      }
+    }, {
+      "uid" : "bd9de9392ce03510",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9efa58ecc10e1a97bb0bb978487fa459, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56862/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9efa58ecc10e1a97bb0bb978487fa459",
+      "time" : {
+        "start" : 1684062330863,
+        "stop" : 1684062330863,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bf3c280c913cae80",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [04fa5f3c6b549ee58cd7fe3355f57062, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56828}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56828/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 04fa5f3c6b549ee58cd7fe3355f57062",
+      "time" : {
+        "start" : 1684062220348,
+        "stop" : 1684062220349,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b2da31b9fca6ebfe",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b481b60a25c830bc234244322453feff, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56742}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56742/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b481b60a25c830bc234244322453feff",
+      "time" : {
+        "start" : 1684061941306,
+        "stop" : 1684061941306,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f64cc291cd2a8fc1.json",
+  "parameterValues" : [ "T13", "\"أفراد\"", "بدل فرق ساعات عمل", "1/3/2022", "فرد 11019", "679.00" ]
+}

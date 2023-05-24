@@ -1,0 +1,806 @@
+{
+  "uid" : "fbac9e6bc45d019b",
+  "name" : "Fill_Allowence_Data_Request",
+  "fullName" : "tests.AllowenceRequestTest.Fill_Allowence_Data_Request",
+  "historyId" : "2519096b8eeed27b97ea4573b57c8ff4",
+  "time" : {
+    "start" : 1684225090361,
+    "stop" : 1684225090361,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6f8a3b091e1bfc080f1ee0abf545eca3, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:56131}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56131/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 6f8a3b091e1bfc080f1ee0abf545eca3",
+  "statusTrace" : "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6f8a3b091e1bfc080f1ee0abf545eca3, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:56131}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56131/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 6f8a3b091e1bfc080f1ee0abf545eca3\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)\r\n\tat utilities.Helper.captureScreenshot(Helper.java:24)\r\n\tat tests.TestBase.screenshotOnFailure(TestBase.java:66)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)\r\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)\r\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)\r\n\tat org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)\r\n\tat org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1507)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:829)\r\n\tat org.testng.TestRunner.run(TestRunner.java:602)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:437)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:330)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1176)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1099)\r\n\tat org.testng.TestNG.run(TestNG.java:1067)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openBrowser",
+    "time" : {
+      "start" : 1684224716668,
+      "stop" : 1684224744482,
+      "duration" : 27814
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "screenshotOnFailure",
+    "time" : {
+      "start" : 1684225090364,
+      "stop" : 1684225090364,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1684225090544,
+      "stop" : 1684225098231,
+      "duration" : 7687
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.AllowenceRequestTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.AllowenceRequestTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Fill_Allowence_Data_Request"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Selenium Framework"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.AllowenceRequestTest"
+  }, {
+    "name" : "host",
+    "value" : "Abdelrahman-Zahran"
+  }, {
+    "name" : "thread",
+    "value" : "21612@Abdelrahman-Zahran.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "T3"
+  }, {
+    "name" : "arg1",
+    "value" : "\"موظفيين\""
+  }, {
+    "name" : "arg2",
+    "value" : "بدل تجربه جديد"
+  }, {
+    "name" : "arg3",
+    "value" : "1/3/2022"
+  }, {
+    "name" : "arg4",
+    "value" : " موظف 58281"
+  }, {
+    "name" : "arg5",
+    "value" : "700.00"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e7a3426cf360dea9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684221867810,
+        "stop" : 1684221946558,
+        "duration" : 78748
+      }
+    }, {
+      "uid" : "ce3ef4874c280e74",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f5ac91db70edecd8fb805217b54fb4b9, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:54546}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54546/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f5ac91db70edecd8fb805217b54fb4b9",
+      "time" : {
+        "start" : 1684167421767,
+        "stop" : 1684167421767,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3f54026ab62002b4",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_604\" style=\"display: block;\">...</div>\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f3579d1cb42d365c32d6c8749f37d70a, clickElement {id=C7680F976E105960AF2B7E7AA29FC6E5_element_46}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:54406}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54406/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (f3579d1cb42d365c32d6c8749f37d70a)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: f3579d1cb42d365c32d6c8749f37d70a",
+      "time" : {
+        "start" : 1684167042324,
+        "stop" : 1684167043528,
+        "duration" : 1204
+      }
+    }, {
+      "uid" : "f0da23bb1567f602",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_604\" style=\"display: block;\">...</div>\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d7f43fa69e604f1b2c0d605f737952ec, clickElement {id=5D2CDD069D033C6F0DFF3DA579DE04D2_element_45}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:54301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54301/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (d7f43fa69e604f1b2c0d605f737952ec)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: d7f43fa69e604f1b2c0d605f737952ec",
+      "time" : {
+        "start" : 1684166581291,
+        "stop" : 1684166582453,
+        "duration" : 1162
+      }
+    }, {
+      "uid" : "a47d1c8978187941",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684163634605,
+        "stop" : 1684163741791,
+        "duration" : 107186
+      }
+    }, {
+      "uid" : "a66c21f8f1d501ea",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_604\" style=\"display: block;\">...</div>\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4ab527075983707ccd8773139b466cd1, clickElement {id=4530F73BD12B1FF737D80F2A8CE4A846_element_46}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:53439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53439/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (4ab527075983707ccd8773139b466cd1)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 4ab527075983707ccd8773139b466cd1",
+      "time" : {
+        "start" : 1684163391529,
+        "stop" : 1684163392711,
+        "duration" : 1182
+      }
+    }, {
+      "uid" : "4e8822636c722a8e",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_604\" style=\"display: block;\">...</div>\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d9a9159c763601655b771a32ed9ce9c8, clickElement {id=0FB08E356651BEAE60868C3FD75A4341_element_46}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:53363}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53363/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (d9a9159c763601655b771a32ed9ce9c8)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: d9a9159c763601655b771a32ed9ce9c8",
+      "time" : {
+        "start" : 1684163234384,
+        "stop" : 1684163235594,
+        "duration" : 1210
+      }
+    }, {
+      "uid" : "fa10b901521315e",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [82107c9efccfd0169bf92660f9266b3b, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:53297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53297/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 82107c9efccfd0169bf92660f9266b3b",
+      "time" : {
+        "start" : 1684163069881,
+        "stop" : 1684163069882,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "79f41e32278fc7b0",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0de5fb8d11b5c306b05a18d850cab940, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:60205}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60205/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0de5fb8d11b5c306b05a18d850cab940",
+      "time" : {
+        "start" : 1684145209768,
+        "stop" : 1684145209768,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2bcd8033ecb99323",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [02ab9b84985ed19a7997c1dbd6ecf8ee, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:59804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59804/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 02ab9b84985ed19a7997c1dbd6ecf8ee",
+      "time" : {
+        "start" : 1684142769205,
+        "stop" : 1684142769205,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d10362e7f52a7472",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [075a80d1a3c90b28895eaaef833b50b5, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:59410}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59410/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 075a80d1a3c90b28895eaaef833b50b5",
+      "time" : {
+        "start" : 1684141739713,
+        "stop" : 1684141739714,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "682cc8756c850e21",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3394a4f3b433fb9dd0ca69c71ed0a273, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:58949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58949/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3394a4f3b433fb9dd0ca69c71ed0a273",
+      "time" : {
+        "start" : 1684140719051,
+        "stop" : 1684140719051,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ef532d3b67fa9010",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.93)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [baaf7d0586336d68e8a3f6640c13cb36, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:56987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56987/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: baaf7d0586336d68e8a3f6640c13cb36",
+      "time" : {
+        "start" : 1684135288006,
+        "stop" : 1684135288006,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5c77a2869a4d6773",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684075812657,
+        "stop" : 1684075883765,
+        "duration" : 71108
+      }
+    }, {
+      "uid" : "b6d19b5db282d081",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [11291a49b2ec3f5f25deb99c2efd22da, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55709/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 11291a49b2ec3f5f25deb99c2efd22da",
+      "time" : {
+        "start" : 1684075614714,
+        "stop" : 1684075614714,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2afa2c6030bd8569",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(255, 255, 255);\">...</a> is not clickable at point (1429, 103). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.478236; cursor: default; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9dda03e85c4cbccb9275dd5e607b752f, clickElement {id=b391a6e1-72b9-4010-8bdb-c821205bb533}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55305}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55305/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9dda03e85c4cbccb9275dd5e607b752f)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 9dda03e85c4cbccb9275dd5e607b752f",
+      "time" : {
+        "start" : 1684074030161,
+        "stop" : 1684074031281,
+        "duration" : 1120
+      }
+    }, {
+      "uid" : "70d4c9ee68ada8e5",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a8387f6c95354a560b19a71724be57aa, clickElement {id=df95c3d8-26f6-48dc-8f97-6b93f3c0680e}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55268}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55268/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (a8387f6c95354a560b19a71724be57aa)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: a8387f6c95354a560b19a71724be57aa",
+      "time" : {
+        "start" : 1684073875565,
+        "stop" : 1684073876690,
+        "duration" : 1125
+      }
+    }, {
+      "uid" : "770920709c62b1e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684066882083,
+        "stop" : 1684066955439,
+        "duration" : 73356
+      }
+    }, {
+      "uid" : "9d21ba8cd7cb9e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684063306930,
+        "stop" : 1684063375257,
+        "duration" : 68327
+      }
+    }, {
+      "uid" : "16307cab332d6b9a",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.cssSelector: div[class='o_searchview'] input[placeholder='بحث ...']\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1684062276736,
+        "stop" : 1684062330821,
+        "duration" : 54085
+      }
+    }, {
+      "uid" : "f69f7ac3103a4e20",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [04fa5f3c6b549ee58cd7fe3355f57062, clickElement {id=b480a50f-f1d3-46b8-baf7-1b362433f84b}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56828}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56828/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (04fa5f3c6b549ee58cd7fe3355f57062)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 04fa5f3c6b549ee58cd7fe3355f57062",
+      "time" : {
+        "start" : 1684062197912,
+        "stop" : 1684062199012,
+        "duration" : 1100
+      }
+    }, {
+      "uid" : "52527680d54d4b2d",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b481b60a25c830bc234244322453feff, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56742}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56742/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b481b60a25c830bc234244322453feff",
+      "time" : {
+        "start" : 1684061941278,
+        "stop" : 1684061941278,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "98f18545fce0eb90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683886898744,
+        "stop" : 1683886970954,
+        "duration" : 72210
+      }
+    }, {
+      "uid" : "5d43a2dd3e1f107",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683885027330,
+        "stop" : 1683885092841,
+        "duration" : 65511
+      }
+    }, {
+      "uid" : "6dd8618e77985ac0",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f9d829b2e42695a2f9056edf99ae8f96, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51288/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f9d829b2e42695a2f9056edf99ae8f96",
+      "time" : {
+        "start" : 1683884606650,
+        "stop" : 1683884606651,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e15702917cfc327d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[contains(text(),'بدل تجربه جديد')]\"}\n  (Session info: chrome=112.0.5615.140)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [348192fb7efa03cc5c8573d816c26265, findElement {using=xpath, value=//td[contains(text(),'بدل تجربه جديد')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51196}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51196/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 348192fb7efa03cc5c8573d816c26265",
+      "time" : {
+        "start" : 1683883749532,
+        "stop" : 1683883865125,
+        "duration" : 115593
+      }
+    }, {
+      "uid" : "f94e0fed60986718",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683881920476,
+        "stop" : 1683881967064,
+        "duration" : 46588
+      }
+    }, {
+      "uid" : "a6e00426aa1f7e81",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[contains(text(),'بدل تجربه جديد')]\"}\n  (Session info: chrome=112.0.5615.140)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a07676b59749bdb1a22f47d5f9c5342a, findElement {using=xpath, value=//td[contains(text(),'بدل تجربه جديد')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54069/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: a07676b59749bdb1a22f47d5f9c5342a",
+      "time" : {
+        "start" : 1683880261506,
+        "stop" : 1683880393083,
+        "duration" : 131577
+      }
+    }, {
+      "uid" : "9fb2ef98bb27b375",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [48b00ee073e3db9afd6304a436c54202, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53859/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 48b00ee073e3db9afd6304a436c54202",
+      "time" : {
+        "start" : 1683877807015,
+        "stop" : 1683877807015,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ccd9266dc37251f",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c3e749d1adc5a74e3e8e266f56ab8601, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53801}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53801/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c3e749d1adc5a74e3e8e266f56ab8601",
+      "time" : {
+        "start" : 1683877452454,
+        "stop" : 1683877452454,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cc91c1a466ddd027",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1013fd4d4183231cc292b6a5a216f047, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53644}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53644/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1013fd4d4183231cc292b6a5a216f047",
+      "time" : {
+        "start" : 1683875510439,
+        "stop" : 1683875510439,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2e613a62035eae81",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button accesskey=\"s\" class=\"btn btn-primary btn-sm o_form_button_save\" type=\"button\">...</button> is not clickable at point (1233, 202). Other element would receive the click: <div class=\"o_form_sheet\">...</div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a222975e02f16eb81abcfad6f0de8957, clickElement {id=4e8b04f1-a7ad-4ef5-bca2-cce73e182818}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:62201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62201/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (a222975e02f16eb81abcfad6f0de8957)] -> xpath: (//button[contains(.,'حفظ')])[1]]\nSession ID: a222975e02f16eb81abcfad6f0de8957",
+      "time" : {
+        "start" : 1683874177069,
+        "stop" : 1683874215614,
+        "duration" : 38545
+      }
+    }, {
+      "uid" : "3b9100ba61298976",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7375d1e404b2930bd2c314a181efd2a7, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:62153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62153/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7375d1e404b2930bd2c314a181efd2a7",
+      "time" : {
+        "start" : 1683873797090,
+        "stop" : 1683873797090,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a7b30042920ea5ad",
+      "status" : "skipped",
+      "statusDetails" : "unknown error: net::ERR_ADDRESS_UNREACHABLE\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [255dace9079ea78d88fb95460dfb9d74, get {url=http://40.65.99.236:49004/web}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64758}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64758/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 255dace9079ea78d88fb95460dfb9d74",
+      "time" : {
+        "start" : 1683819296991,
+        "stop" : 1683819296992,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ce3a6cef95818f94",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [97ae65f77b8e583757677a60e1ad0c59, clickElement {id=95f897b6-9dea-46e7-a427-d703df3f74de}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56255/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (97ae65f77b8e583757677a60e1ad0c59)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 97ae65f77b8e583757677a60e1ad0c59",
+      "time" : {
+        "start" : 1683818366871,
+        "stop" : 1683818367954,
+        "duration" : 1083
+      }
+    }, {
+      "uid" : "81a2183d8a28cdfa",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [60ca0a19e06613d01a702a45905d0264, clickElement {id=a7d644eb-77a4-4d12-8202-97a9fb7513f4}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55835/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (60ca0a19e06613d01a702a45905d0264)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 60ca0a19e06613d01a702a45905d0264",
+      "time" : {
+        "start" : 1683818257830,
+        "stop" : 1683818258925,
+        "duration" : 1095
+      }
+    }, {
+      "uid" : "b8e38bcecfc3eb10",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3cc88ac30973d1b980219f7c3abd75e8, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64025}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64025/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3cc88ac30973d1b980219f7c3abd75e8",
+      "time" : {
+        "start" : 1683813778854,
+        "stop" : 1683813778854,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "977e2911aedd2a9b",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a82f3d90768d37162676422a74dc8109, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63975}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63975/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: a82f3d90768d37162676422a74dc8109",
+      "time" : {
+        "start" : 1683813577310,
+        "stop" : 1683813577311,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "90bcc6343ae6b37b",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ed92f1bdbf807ddbff3950bb24a85fe6, clickElement {id=24a4d44e-c86e-4b20-8f1a-84597cc9d68d}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63933}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63933/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (ed92f1bdbf807ddbff3950bb24a85fe6)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: ed92f1bdbf807ddbff3950bb24a85fe6",
+      "time" : {
+        "start" : 1683813444719,
+        "stop" : 1683813445869,
+        "duration" : 1150
+      }
+    }, {
+      "uid" : "c2e1aafd8d315b76",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_1383\" style=\"display: block;\">...</div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e0ea9a106cec6714c4c7518c7863c35e, clickElement {id=3601848b-37f5-4f1d-9424-285e2891f7c3}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58783}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58783/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (e0ea9a106cec6714c4c7518c7863c35e)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: e0ea9a106cec6714c4c7518c7863c35e",
+      "time" : {
+        "start" : 1683811034912,
+        "stop" : 1683811036025,
+        "duration" : 1113
+      }
+    }, {
+      "uid" : "797c6eb840528b9e",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.cssSelector: input[name=\"dec_no\"]\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1683806925569,
+        "stop" : 1683806931999,
+        "duration" : 6430
+      }
+    }, {
+      "uid" : "6629e9ae325a468f",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.cssSelector: input[name=\"dec_no\"]\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1683805781749,
+        "stop" : 1683805801351,
+        "duration" : 19602
+      }
+    }, {
+      "uid" : "1acc4dbae023b2dc",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8c92e6575cdfcf245a482232506dd634, clickElement {id=a4c9a556-d471-45aa-87ff-75621c4f9930}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57494}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57494/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (8c92e6575cdfcf245a482232506dd634)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 8c92e6575cdfcf245a482232506dd634",
+      "time" : {
+        "start" : 1683805432473,
+        "stop" : 1683805433633,
+        "duration" : 1160
+      }
+    }, {
+      "uid" : "db1052b34e6f7567",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [51d66022c92e20061bcf67b194e92c03, findElement {using=xpath, value=//a[@href='/web?db=sprint_db_automation']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57398/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 51d66022c92e20061bcf67b194e92c03",
+      "time" : {
+        "start" : 1683805135611,
+        "stop" : 1683805135611,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "25babf7e1f5d21e6",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7459264746babe274061223bff8341e1, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57175/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7459264746babe274061223bff8341e1",
+      "time" : {
+        "start" : 1683804073053,
+        "stop" : 1683804073054,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "edc4280457a73979",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [be13d08970bdd5bbfc99856e1f93f723, findElement {using=xpath, value=//a[contains(text(),'البحث عن المزيد...')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57023}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57023/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: be13d08970bdd5bbfc99856e1f93f723",
+      "time" : {
+        "start" : 1683803760285,
+        "stop" : 1683803767417,
+        "duration" : 7132
+      }
+    }, {
+      "uid" : "83c734a94e531b53",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5e3582206ebb80a866f437b1bd85846c, clickElement {id=1cd83b39-3855-4ef3-8660-190556467aaf}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61775/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (5e3582206ebb80a866f437b1bd85846c)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 5e3582206ebb80a866f437b1bd85846c",
+      "time" : {
+        "start" : 1683801060907,
+        "stop" : 1683801061999,
+        "duration" : 1092
+      }
+    }, {
+      "uid" : "7f82914584ca802f",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [74a0132ddbe1f6fd96fc9f934108e7af, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58448}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58448/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 74a0132ddbe1f6fd96fc9f934108e7af",
+      "time" : {
+        "start" : 1683800935807,
+        "stop" : 1683800935807,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5d098c41a9bc0eb1",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [030e6c41bcab6421b42c90481dbac622, clickElement {id=c63b1f75-4ce5-4b9a-b963-c001912d109c}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58401}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58401/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (030e6c41bcab6421b42c90481dbac622)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 030e6c41bcab6421b42c90481dbac622",
+      "time" : {
+        "start" : 1683800716450,
+        "stop" : 1683800717591,
+        "duration" : 1141
+      }
+    }, {
+      "uid" : "d8b5459a26f37af0",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.236858; cursor: default; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [45982a88d27eb425676faed27ab21baa, clickElement {id=75f695f7-688c-473b-a7ef-27a30be25e4e}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58353}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58353/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (45982a88d27eb425676faed27ab21baa)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 45982a88d27eb425676faed27ab21baa",
+      "time" : {
+        "start" : 1683800398973,
+        "stop" : 1683800400095,
+        "duration" : 1122
+      }
+    }, {
+      "uid" : "840091941aeaae47",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [cc876c2fa604683a109e4c7664e418a5, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58298/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cc876c2fa604683a109e4c7664e418a5",
+      "time" : {
+        "start" : 1683800097542,
+        "stop" : 1683800097543,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3f7fb083dccb0a77",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button accesskey=\"s\" class=\"btn btn-primary btn-sm o_form_button_save\" type=\"button\">...</button> is not clickable at point (1233, 202). Other element would receive the click: <div class=\"o_form_sheet\">...</div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [03806495fa956fd4cba87f89f2b12a6a, clickElement {id=3f8b6a7b-ad0b-41b4-9dd5-bd61c9658de7}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58096/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (03806495fa956fd4cba87f89f2b12a6a)] -> xpath: (//button[contains(.,'حفظ')])[1]]\nSession ID: 03806495fa956fd4cba87f89f2b12a6a",
+      "time" : {
+        "start" : 1683798404672,
+        "stop" : 1683798436247,
+        "duration" : 31575
+      }
+    }, {
+      "uid" : "fdd26682752a5a78",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9c9b9dfc6788cb0b2bf6e65c402f5119, clickElement {id=423c31d3-daf6-4775-a59e-5499db4484c8}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58047}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58047/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9c9b9dfc6788cb0b2bf6e65c402f5119)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 9c9b9dfc6788cb0b2bf6e65c402f5119",
+      "time" : {
+        "start" : 1683797950306,
+        "stop" : 1683797951441,
+        "duration" : 1135
+      }
+    }, {
+      "uid" : "24eeaea6defa6544",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c860edbe6ab03edd10002c8c1bc3018c, clickElement {id=59d4a3c1-8581-44e4-9cee-6244d3a55d1c}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58003/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (c860edbe6ab03edd10002c8c1bc3018c)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: c860edbe6ab03edd10002c8c1bc3018c",
+      "time" : {
+        "start" : 1683797818268,
+        "stop" : 1683797819356,
+        "duration" : 1088
+      }
+    }, {
+      "uid" : "434497d977bbbf6",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [14d5e6e088ee7096fece36e0b979e78c, clickElement {id=f089606b-f8f5-42f9-8fa5-9a3b9fa72410}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57963/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (14d5e6e088ee7096fece36e0b979e78c)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 14d5e6e088ee7096fece36e0b979e78c",
+      "time" : {
+        "start" : 1683797713513,
+        "stop" : 1683797714669,
+        "duration" : 1156
+      }
+    }, {
+      "uid" : "f82f624881726dc1",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2bf6b4a6e0dae1668f6abf263c5b5ef6, clickElement {id=2b7c3f70-affd-480a-a56f-b5d05cbb003b}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57830}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57830/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2bf6b4a6e0dae1668f6abf263c5b5ef6)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 2bf6b4a6e0dae1668f6abf263c5b5ef6",
+      "time" : {
+        "start" : 1683797612681,
+        "stop" : 1683797613764,
+        "duration" : 1083
+      }
+    }, {
+      "uid" : "b501029668f6291d",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e8af8e4eef9505e726a6b84754c58ba1, findElement {using=xpath, value=//a[contains(text(),'البحث عن المزيد...')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54955}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54955/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e8af8e4eef9505e726a6b84754c58ba1",
+      "time" : {
+        "start" : 1683796489725,
+        "stop" : 1683796495630,
+        "duration" : 5905
+      }
+    }, {
+      "uid" : "c83093a1189816e6",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9a9254295f48b618456072a23a1f2066, findElement {using=xpath, value=//a[contains(text(),'البحث عن المزيد...')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54902}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54902/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9a9254295f48b618456072a23a1f2066",
+      "time" : {
+        "start" : 1683795928158,
+        "stop" : 1683795933995,
+        "duration" : 5837
+      }
+    }, {
+      "uid" : "173c909ad5a55ea1",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div class=\"blockUI blockOverlay\" style=\"z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;\"></div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7dae8086ea48a9162bf87b4199e1b743, clickElement {id=78db7a29-afd1-4ffd-805a-da0f8f154307}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54836/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (7dae8086ea48a9162bf87b4199e1b743)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 7dae8086ea48a9162bf87b4199e1b743",
+      "time" : {
+        "start" : 1683795756365,
+        "stop" : 1683795757457,
+        "duration" : 1092
+      }
+    }, {
+      "uid" : "5839c44d52858263",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_610\" style=\"display: block;\">...</div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b2afcdf34f86edf6e14e7f5488382a2f, clickElement {id=44236413-aec4-40b4-a43b-0b45ea84ce29}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54782}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54782/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (b2afcdf34f86edf6e14e7f5488382a2f)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: b2afcdf34f86edf6e14e7f5488382a2f",
+      "time" : {
+        "start" : 1683795466703,
+        "stop" : 1683795467779,
+        "duration" : 1076
+      }
+    }, {
+      "uid" : "f9e2bd40d6208723",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b148413d80c5f60aa73140d0cdc7290f, findElement {using=css selector, value=div[class='o_searchview'] input[placeholder='بحث ...']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54718}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54718/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b148413d80c5f60aa73140d0cdc7290f",
+      "time" : {
+        "start" : 1683795160059,
+        "stop" : 1683795168989,
+        "duration" : 8930
+      }
+    }, {
+      "uid" : "23719e9c9905c53",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])\" because \"js\" is null",
+      "time" : {
+        "start" : 1683791133021,
+        "stop" : 1683791158952,
+        "duration" : 25931
+      }
+    }, {
+      "uid" : "104f01686b8cbb1c",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_604\" style=\"display: block;\">...</div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b27451dee27232b9cea9e633eacd0fa8, clickElement {id=71c8db2e-c2d9-401f-be4d-1e2b7d985d25}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59192}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59192/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (b27451dee27232b9cea9e633eacd0fa8)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: b27451dee27232b9cea9e633eacd0fa8",
+      "time" : {
+        "start" : 1683790755432,
+        "stop" : 1683790756500,
+        "duration" : 1068
+      }
+    }, {
+      "uid" : "f0a7349448abb8e6",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_604\" style=\"display: block;\">...</div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2b89e40f069fcd4590cb456af1c63a0a, clickElement {id=04f1195a-1b30-4771-a98a-44c60b303977}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59130}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59130/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2b89e40f069fcd4590cb456af1c63a0a)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 2b89e40f069fcd4590cb456af1c63a0a",
+      "time" : {
+        "start" : 1683790387633,
+        "stop" : 1683790388708,
+        "duration" : 1075
+      }
+    }, {
+      "uid" : "d0ddde447dbe1b5c",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f3296fd01025a93d13051cfb547fe7da, clickElement {id=f8b1694b-3710-4984-b589-60cde285ab1b}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59065}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59065/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (f3296fd01025a93d13051cfb547fe7da)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_payroll_allowance_decision\"])[3]]\nSession ID: f3296fd01025a93d13051cfb547fe7da",
+      "time" : {
+        "start" : 1683790083882,
+        "stop" : 1683790109213,
+        "duration" : 25331
+      }
+    }, {
+      "uid" : "e7edb0f855aa39ae",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn.btn-primary.btn-sm.o_list_button_add\"}\n  (Session info: chrome=112.0.5615.140)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fa5006d1b6e7cabe64bbe7e9039cb4d4, findElement {using=css selector, value=.btn.btn-primary.btn-sm.o_list_button_add}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58603/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fa5006d1b6e7cabe64bbe7e9039cb4d4",
+      "time" : {
+        "start" : 1683789361017,
+        "stop" : 1683789386192,
+        "duration" : 25175
+      }
+    }, {
+      "uid" : "1f84aa3d7f2fa58",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]\"}\n  (Session info: chrome=112.0.5615.140)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [df06bc375353e62ecf3d708850d2a2b2, findElement {using=xpath, value=(//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57858}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57858/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: df06bc375353e62ecf3d708850d2a2b2",
+      "time" : {
+        "start" : 1683788835469,
+        "stop" : 1683788860491,
+        "duration" : 25022
+      }
+    }, {
+      "uid" : "1e413f112e987482",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3d84a496675a84ef05e9cefcfdd062f8, findElement {using=xpath, value=//a[@href='/web?db=sprint_db_automation']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57703/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3d84a496675a84ef05e9cefcfdd062f8",
+      "time" : {
+        "start" : 1683787971238,
+        "stop" : 1683787971238,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b03db24e35b6156d",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_565\" style=\"display: block;\">...</div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [214ecfa973579a5e393fe44d24324a31, clickElement {id=b20a5dad-8459-4d3e-8ab7-f065665c12f2}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57657}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57657/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (214ecfa973579a5e393fe44d24324a31)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 214ecfa973579a5e393fe44d24324a31",
+      "time" : {
+        "start" : 1683787942757,
+        "stop" : 1683787943834,
+        "duration" : 1077
+      }
+    }, {
+      "uid" : "239c67d1935d877d",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_565\" style=\"display: block;\">...</div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b6992b50158706b6033935849241caa5, clickElement {id=c644998e-17c0-465f-bfb3-77ede954b52a}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57609}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57609/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (b6992b50158706b6033935849241caa5)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: b6992b50158706b6033935849241caa5",
+      "time" : {
+        "start" : 1683787744926,
+        "stop" : 1683787746011,
+        "duration" : 1085
+      }
+    }, {
+      "uid" : "bd6fcaf5d9f1701c",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_565\" style=\"display: block;\">...</div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f97ec4ed4648857c810bd6b143bddd5e, clickElement {id=9b24718f-82b5-48e6-9e82-1b4a44e4589f}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57538}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57538/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (f97ec4ed4648857c810bd6b143bddd5e)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: f97ec4ed4648857c810bd6b143bddd5e",
+      "time" : {
+        "start" : 1683787277039,
+        "stop" : 1683787278119,
+        "duration" : 1080
+      }
+    }, {
+      "uid" : "57990548f5ede9da",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_565\" style=\"display: block;\">...</div>\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [adc8d2aeb962c20e70380551aba8dbc9, clickElement {id=36d08285-5c99-4e32-8284-a428bf988f6f}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57379}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57379/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (adc8d2aeb962c20e70380551aba8dbc9)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: adc8d2aeb962c20e70380551aba8dbc9",
+      "time" : {
+        "start" : 1683786878199,
+        "stop" : 1683786879282,
+        "duration" : 1083
+      }
+    }, {
+      "uid" : "6e402d9d734d5fc0",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"/web#menu_id=629&amp;action=\" class=\"oe_menu_toggler itqmenuToggler itq-sub-menu-item oe_menu_opened\" data-menu=\"629\" data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\" style=\"color: rgb(254, 205, 0);\">...</a> is not clickable at point (1429, 174). Other element would receive the click: <div tabindex=\"-1\" data-backdrop=\"static\" role=\"dialog\" aria-hidden=\"false\" class=\"modal o_technical_modal in\" id=\"modal_565\" style=\"display: block;\">...</div>\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [63c19054b94319e35a81268073c96375, clickElement {id=e0ea962b-3fbc-4d3f-94d4-2a32e2945d47}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64072}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64072/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (63c19054b94319e35a81268073c96375)] -> xpath: (//a[@data-menu-xmlid=\"itq_payroll.menu_itq_main_allowance\"])[3]]\nSession ID: 63c19054b94319e35a81268073c96375",
+      "time" : {
+        "start" : 1683734512765,
+        "stop" : 1683734513861,
+        "duration" : 1096
+      }
+    }, {
+      "uid" : "673985d7fd0537a5",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.cssSelector: .btn.btn-primary.btn-sm.o_list_button_add\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1683732120380,
+        "stop" : 1683732125259,
+        "duration" : 4879
+      }
+    }, {
+      "uid" : "7073ba71202b9ba7",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [550f246ae3bcccc88eb66673e055c06d, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:60368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60368/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 550f246ae3bcccc88eb66673e055c06d",
+      "time" : {
+        "start" : 1683726068873,
+        "stop" : 1683726068873,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1667c942127c44f7",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.cssSelector: .btn.btn-primary.btn-sm.o_list_button_add\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1683492040055,
+        "stop" : 1683492046054,
+        "duration" : 5999
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbac9e6bc45d019b.json",
+  "parameterValues" : [ "T3", "\"موظفيين\"", "بدل تجربه جديد", "1/3/2022", " موظف 58281", "700.00" ]
+}

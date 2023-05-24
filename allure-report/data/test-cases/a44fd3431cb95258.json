@@ -1,0 +1,145 @@
+{
+  "uid" : "a44fd3431cb95258",
+  "name" : "Fill_Allowence_Data_Request",
+  "fullName" : "tests.AllowenceRequestTest.Fill_Allowence_Data_Request",
+  "historyId" : "22a0e6d0da64231a62a9b25b75142a39",
+  "time" : {
+    "start" : 1684061685065,
+    "stop" : 1684061685066,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+  "statusTrace" : "java.lang.RuntimeException: java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)\r\n\tat org.testng.internal.Parameters.handleParameters(Parameters.java:803)\r\n\tat org.testng.internal.Parameters.handleParameters(Parameters.java:728)\r\n\tat org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)\r\n\tat org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:829)\r\n\tat org.testng.TestRunner.run(TestRunner.java:602)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:437)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:330)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1176)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1099)\r\n\tat org.testng.TestNG.run(TestNG.java:1067)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\nCaused by: java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell\r\n\tat org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1035)\r\n\tat org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:390)\r\n\tat org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:342)\r\n\tat data.ExcelReader.readSheet(ExcelReader.java:33)\r\n\tat tests.AllowenceRequestTest.test_data(AllowenceRequestTest.java:67)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:578)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)\r\n\t... 24 more\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openBrowser",
+    "time" : {
+      "start" : 1684061660868,
+      "stop" : 1684061668077,
+      "duration" : 7209
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1684061685076,
+      "stop" : 1684061692202,
+      "duration" : 7126
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.AllowenceRequestTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.AllowenceRequestTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Fill_Allowence_Data_Request"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Selenium Framework"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.AllowenceRequestTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-F96MB1N"
+  }, {
+    "name" : "thread",
+    "value" : "34384@DESKTOP-F96MB1N.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fecf91b1d554a8",
+      "status" : "broken",
+      "statusDetails" : "java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1684061473321,
+        "stop" : 1684061473322,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "93fd02548f223052",
+      "status" : "broken",
+      "statusDetails" : "java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1684061336465,
+        "stop" : 1684061336467,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "3aed5b4190afe641",
+      "status" : "broken",
+      "statusDetails" : "\n[public void tests.AllowenceRequestTest.Fill_Allowence_Data_Request(java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).\nData provider mismatch\nMethod: Fill_Allowence_Data_Request([java.lang.String arg0, java.lang.String arg1])\nArguments: [(java.lang.String) T1,(java.lang.String) \"أفراد\",(java.lang.String) مكافأة امام جامع - أ,(java.lang.String) 1/3/2022,(java.lang.String) فرد 14219,(java.lang.String) 4,571.00]",
+      "time" : {
+        "start" : 1683491843221,
+        "stop" : 1683491843222,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "15de64ad7825ae33",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException: Cannot invoke \"org.apache.poi.xssf.usermodel.XSSFSheet.getPhysicalNumberOfRows()\" because \"mysheet\" is null",
+      "time" : {
+        "start" : 1683491760549,
+        "stop" : 1683491760549,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c9b9f600cfdda715",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException: Cannot invoke \"org.apache.poi.xssf.usermodel.XSSFSheet.getPhysicalNumberOfRows()\" because \"mysheet\" is null",
+      "time" : {
+        "start" : 1683488854292,
+        "stop" : 1683488854294,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a44fd3431cb95258.json",
+  "parameterValues" : [ ]
+}

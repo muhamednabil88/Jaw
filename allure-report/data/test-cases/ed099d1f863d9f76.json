@@ -1,0 +1,307 @@
+{
+  "uid" : "ed099d1f863d9f76",
+  "name" : "changeLanguageToEnglish",
+  "fullName" : "com.pilot.pilot_project.LoginTest.changeLanguageToEnglish",
+  "historyId" : "f86fb9ff83dc06d2175fefa7db441fe4",
+  "time" : {
+    "start" : 1683109375896,
+    "stop" : 1683109386279,
+    "duration" : 10383
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1683109365224,
+      "stop" : 1683109375754,
+      "duration" : 10530
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1683109386301,
+      "stop" : 1683109387149,
+      "duration" : 848
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.pilot.pilot_project.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.pilot.pilot_project.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "changeLanguageToEnglish"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Pilot Project"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.pilot.pilot_project.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SBT2873"
+  }, {
+    "name" : "thread",
+    "value" : "20716@DESKTOP-SBT2873.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "لحم"
+  }, {
+    "name" : "arg1",
+    "value" : "Meat"
+  }, {
+    "name" : "arg2",
+    "value" : "50"
+  }, {
+    "name" : "arg3",
+    "value" : "10"
+  }, {
+    "name" : "arg4",
+    "value" : "1020"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7061f9e407dbe8c3",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [db51c428af0c6376b6e9a98a93ea6614, clickElement {id=3530d566-9972-427e-a451-d87d3f32ec88}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52729}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52729/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (db51c428af0c6376b6e9a98a93ea6614)] -> id: open-side-menu]\nSession ID: db51c428af0c6376b6e9a98a93ea6614",
+      "time" : {
+        "start" : 1683109248728,
+        "stop" : 1683109249183,
+        "duration" : 455
+      }
+    }, {
+      "uid" : "7557b57f13aa2791",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(.,'Saved successfully')][8]\"}\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5015d9fc02afb2c8342e92fdac498a37, findElement {using=xpath, value=//div[contains(.,'Saved successfully')][8]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52545}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52545/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 5015d9fc02afb2c8342e92fdac498a37",
+      "time" : {
+        "start" : 1683109111760,
+        "stop" : 1683109132411,
+        "duration" : 20651
+      }
+    }, {
+      "uid" : "6f36dfef1530a794",
+      "status" : "broken",
+      "statusDetails" : "target frame detached\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [958a83081a9844597d6058712df77001, findElement {using=xpath, value=open-side-menu}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52443/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 958a83081a9844597d6058712df77001",
+      "time" : {
+        "start" : 1683109059790,
+        "stop" : 1683109065709,
+        "duration" : 5919
+      }
+    }, {
+      "uid" : "94c969b280c5be20",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"open-side-menu\"}\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c91da2ed753bb2d3a24c3c673fcf64b9, findElement {using=xpath, value=open-side-menu}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52186}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52186/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c91da2ed753bb2d3a24c3c673fcf64b9",
+      "time" : {
+        "start" : 1683108932889,
+        "stop" : 1683108942936,
+        "duration" : 10047
+      }
+    }, {
+      "uid" : "1edeece15a31356f",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.xpath: open-side-menu\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1683108857454,
+        "stop" : 1683108864900,
+        "duration" : 7446
+      }
+    }, {
+      "uid" : "498e606adb22c3d0",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"open-side-menu\"}\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [70423ff85340af0d84ba6b2a6ac200dd, findElement {using=xpath, value=open-side-menu}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51944}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51944/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 70423ff85340af0d84ba6b2a6ac200dd",
+      "time" : {
+        "start" : 1683108775144,
+        "stop" : 1683108785194,
+        "duration" : 10050
+      }
+    }, {
+      "uid" : "7bbbd38891aaaa36",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(.,'Saved successfully')][8]\"}\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7297fabd56135c4ee14fce4819ab1f8e, findElement {using=xpath, value=//div[contains(.,'Saved successfully')][8]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51445/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7297fabd56135c4ee14fce4819ab1f8e",
+      "time" : {
+        "start" : 1683108310605,
+        "stop" : 1683108328492,
+        "duration" : 17887
+      }
+    }, {
+      "uid" : "5da3af687c891859",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3161c3d778524cb70fd0ec50e0ccbc92, sendKeysToElement {id=34546290-a4f5-486e-9029-e7fd51511484, value=[Ljava.lang.CharSequence;@118a4d5}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51261/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (3161c3d778524cb70fd0ec50e0ccbc92)] -> xpath: //*[@id=\"main-screen-content\"]/div/form/div[1]/div[2]/div[7]/div/div[2]/div]\nSession ID: 3161c3d778524cb70fd0ec50e0ccbc92",
+      "time" : {
+        "start" : 1683108123394,
+        "stop" : 1683108129789,
+        "duration" : 6395
+      }
+    }, {
+      "uid" : "43f14f2e8d35e5dc",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1d7461a6aa741834effc823c5fbf1768, sendKeysToElement {id=75ae2d71-93ac-4b18-bb95-3516efd2ecab, value=[Ljava.lang.CharSequence;@73b8ab2c}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51155}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51155/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (1d7461a6aa741834effc823c5fbf1768)] -> xpath: /html/body/div/div[2]/div[1]/div/main/div[2]/div/form/div[1]/div[2]/div[5]/div/div[2]/div[2]/div/div]\nSession ID: 1d7461a6aa741834effc823c5fbf1768",
+      "time" : {
+        "start" : 1683108067721,
+        "stop" : 1683108072674,
+        "duration" : 4953
+      }
+    }, {
+      "uid" : "725e5d310c4a6941",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div/div[2]/div[1]/div/main/div[2]/div/form/div[1]/div[2]/div[5]/div/div[2]/div/div[1]/div[2]/input\"}\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [170f88728ca9f65d36a696c272199f56, findElement {using=xpath, value=/html/body/div/div[2]/div[1]/div/main/div[2]/div/form/div[1]/div[2]/div[5]/div/div[2]/div/div[1]/div[2]/input}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50973/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 170f88728ca9f65d36a696c272199f56",
+      "time" : {
+        "start" : 1683107884928,
+        "stop" : 1683107900156,
+        "duration" : 15228
+      }
+    }, {
+      "uid" : "9948ab0295ea64b8",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [48e5d50996ee71af4e723c30e84787da, sendKeysToElement {id=78631aba-fd7c-4ba2-8367-14f1cf3095b5, value=[Ljava.lang.CharSequence;@4de158ca}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50797}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50797/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (48e5d50996ee71af4e723c30e84787da)] -> xpath: //*[@id=\"main-screen-content\"]/div/form/div[1]/div[2]/div[5]/div/div[2]/div/div[1]]\nSession ID: 48e5d50996ee71af4e723c30e84787da",
+      "time" : {
+        "start" : 1683107715183,
+        "stop" : 1683107721810,
+        "duration" : 6627
+      }
+    }, {
+      "uid" : "37c473668ea1049d",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [47ee60613ca40a0d8bfe1d46aa93ecff, sendKeysToElement {id=05d5f95e-ec63-4a98-a7d3-c1b00b8673cf, value=[Ljava.lang.CharSequence;@7538cfe6}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50659/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (47ee60613ca40a0d8bfe1d46aa93ecff)] -> xpath: //*[@id=\"main-screen-content\"]/div/form/div[1]/div[2]/div[5]/div/div[2]/div/div[1]]\nSession ID: 47ee60613ca40a0d8bfe1d46aa93ecff",
+      "time" : {
+        "start" : 1683107596707,
+        "stop" : 1683107605188,
+        "duration" : 8481
+      }
+    }, {
+      "uid" : "7b0ca1e7120adadf",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [66da7df2192cf1fea2be86443009b53f, sendKeysToElement {id=64202cd0-e7cc-4689-9e63-1a24a9a8d15b, value=[Ljava.lang.CharSequence;@4cadd4d4}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50500/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (66da7df2192cf1fea2be86443009b53f)] -> xpath: //*[@id=\"main-screen-content\"]/div/form/div[1]/div[2]/div[5]/div/div[2]/div/div[1]]\nSession ID: 66da7df2192cf1fea2be86443009b53f",
+      "time" : {
+        "start" : 1683107461724,
+        "stop" : 1683107476998,
+        "duration" : 15274
+      }
+    }, {
+      "uid" : "cd40a2cde5f2652a",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683107374120,
+        "stop" : 1683107374190,
+        "duration" : 70
+      }
+    }, {
+      "uid" : "d847b3ccbd4b7452",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683107280380,
+        "stop" : 1683107285412,
+        "duration" : 5032
+      }
+    }, {
+      "uid" : "d4bca55dbfba71c2",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683107121170,
+        "stop" : 1683107121200,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "fc8424f458abaae7",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683107008247,
+        "stop" : 1683107008315,
+        "duration" : 68
+      }
+    }, {
+      "uid" : "772e72ab39e2a7a3",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106882482,
+        "stop" : 1683106882496,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "e8eab7e3f1ae9233",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106622405,
+        "stop" : 1683106622426,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "e5a28bb54d88d83e",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106312566,
+        "stop" : 1683106312584,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "953bc6f346c9a07",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106080035,
+        "stop" : 1683106080060,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "e00d5764e32eb062",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105871268,
+        "stop" : 1683105871287,
+        "duration" : 19
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed099d1f863d9f76.json",
+  "parameterValues" : [ "لحم", "Meat", "50", "10", "1020" ]
+}

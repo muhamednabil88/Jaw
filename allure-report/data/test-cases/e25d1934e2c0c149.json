@@ -1,0 +1,880 @@
+{
+  "uid" : "e25d1934e2c0c149",
+  "name" : "User_Can_Login_Successfully",
+  "fullName" : "tests.AllowenceRequestTest.User_Can_Login_Successfully",
+  "historyId" : "256e56802dbe9356786ce496db1432d4",
+  "time" : {
+    "start" : 1684224744703,
+    "stop" : 1684224759593,
+    "duration" : 14890
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openBrowser",
+    "time" : {
+      "start" : 1684224716668,
+      "stop" : 1684224744482,
+      "duration" : 27814
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "screenshotOnFailure",
+    "time" : {
+      "start" : 1684224759673,
+      "stop" : 1684224759673,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1684225090544,
+      "stop" : 1684225098231,
+      "duration" : 7687
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.AllowenceRequestTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.AllowenceRequestTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "User_Can_Login_Successfully"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Selenium Framework"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.AllowenceRequestTest"
+  }, {
+    "name" : "host",
+    "value" : "Abdelrahman-Zahran"
+  }, {
+    "name" : "thread",
+    "value" : "21612@Abdelrahman-Zahran.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cd9958f04e7665a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684221661327,
+        "stop" : 1684221679094,
+        "duration" : 17767
+      }
+    }, {
+      "uid" : "6566f1e47e605598",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684221583454,
+        "stop" : 1684221604490,
+        "duration" : 21036
+      }
+    }, {
+      "uid" : "54b20cfb1c88dcc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684167354124,
+        "stop" : 1684167365068,
+        "duration" : 10944
+      }
+    }, {
+      "uid" : "52f87bc1fd4b4198",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684166921700,
+        "stop" : 1684166932886,
+        "duration" : 11186
+      }
+    }, {
+      "uid" : "e3f01f19e472e20c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684166460491,
+        "stop" : 1684166471356,
+        "duration" : 10865
+      }
+    }, {
+      "uid" : "513ae85f4587647f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684163446623,
+        "stop" : 1684163457849,
+        "duration" : 11226
+      }
+    }, {
+      "uid" : "65e40d4b1ba9ef2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684163270165,
+        "stop" : 1684163281680,
+        "duration" : 11515
+      }
+    }, {
+      "uid" : "2cabc8d86a915122",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684163113532,
+        "stop" : 1684163114235,
+        "duration" : 703
+      }
+    }, {
+      "uid" : "74234952e19ed354",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684163061367,
+        "stop" : 1684163061838,
+        "duration" : 471
+      }
+    }, {
+      "uid" : "383f34dcff8ef631",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684159019629,
+        "stop" : 1684159020252,
+        "duration" : 623
+      }
+    }, {
+      "uid" : "50a6b00385900a0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684158783575,
+        "stop" : 1684158800197,
+        "duration" : 16622
+      }
+    }, {
+      "uid" : "d9e5bd337f8ba54e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684144832546,
+        "stop" : 1684144845163,
+        "duration" : 12617
+      }
+    }, {
+      "uid" : "ad9806b87627d45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684142688870,
+        "stop" : 1684142706531,
+        "duration" : 17661
+      }
+    }, {
+      "uid" : "fe25d581284983a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684141654988,
+        "stop" : 1684141655649,
+        "duration" : 661
+      }
+    }, {
+      "uid" : "fd50b5ae46266a40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684141175689,
+        "stop" : 1684141176430,
+        "duration" : 741
+      }
+    }, {
+      "uid" : "2648c60ad30e9e64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684140610783,
+        "stop" : 1684140611510,
+        "duration" : 727
+      }
+    }, {
+      "uid" : "f7ebeee7c56a0df6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684140042263,
+        "stop" : 1684140043373,
+        "duration" : 1110
+      }
+    }, {
+      "uid" : "dfbb44ceec5bd109",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684135218286,
+        "stop" : 1684135230219,
+        "duration" : 11933
+      }
+    }, {
+      "uid" : "868b001377b123c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684075634936,
+        "stop" : 1684075645661,
+        "duration" : 10725
+      }
+    }, {
+      "uid" : "a277aef2c1d852ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684075608518,
+        "stop" : 1684075608884,
+        "duration" : 366
+      }
+    }, {
+      "uid" : "5cff6e6d342b6f0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684073925524,
+        "stop" : 1684073937239,
+        "duration" : 11715
+      }
+    }, {
+      "uid" : "7106e6ffefc9fd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684073845183,
+        "stop" : 1684073857081,
+        "duration" : 11898
+      }
+    }, {
+      "uid" : "853b4d20d7abd55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684066701522,
+        "stop" : 1684066712554,
+        "duration" : 11032
+      }
+    }, {
+      "uid" : "6163135b9b9c1bdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684063120914,
+        "stop" : 1684063131470,
+        "duration" : 10556
+      }
+    }, {
+      "uid" : "8f0ffffb3aff6b4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684062246788,
+        "stop" : 1684062257547,
+        "duration" : 10759
+      }
+    }, {
+      "uid" : "ba1d04d2344f1196",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684062168017,
+        "stop" : 1684062186742,
+        "duration" : 18725
+      }
+    }, {
+      "uid" : "3ee3712d9740d5b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684061910712,
+        "stop" : 1684061924470,
+        "duration" : 13758
+      }
+    }, {
+      "uid" : "b674d741994c624",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684061668127,
+        "stop" : 1684061674225,
+        "duration" : 6098
+      }
+    }, {
+      "uid" : "a0c83a36e4f6cf76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684061453003,
+        "stop" : 1684061460936,
+        "duration" : 7933
+      }
+    }, {
+      "uid" : "355a385f03ca2240",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684061316653,
+        "stop" : 1684061327551,
+        "duration" : 10898
+      }
+    }, {
+      "uid" : "7793b73e0b731bda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683886720911,
+        "stop" : 1683886736134,
+        "duration" : 15223
+      }
+    }, {
+      "uid" : "963447bc4c3ca01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683886328796,
+        "stop" : 1683886348565,
+        "duration" : 19769
+      }
+    }, {
+      "uid" : "43182e92988ff67b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884863041,
+        "stop" : 1683884875749,
+        "duration" : 12708
+      }
+    }, {
+      "uid" : "410c83b924e9c5db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884508767,
+        "stop" : 1683884532548,
+        "duration" : 23781
+      }
+    }, {
+      "uid" : "c7f9c29eceb2442d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683883614387,
+        "stop" : 1683883630053,
+        "duration" : 15666
+      }
+    }, {
+      "uid" : "ecbc857d61992e9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683881830745,
+        "stop" : 1683881853927,
+        "duration" : 23182
+      }
+    }, {
+      "uid" : "4d429112b621409",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683880030418,
+        "stop" : 1683880044643,
+        "duration" : 14225
+      }
+    }, {
+      "uid" : "c7b6a38484fd4c81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683877687495,
+        "stop" : 1683877701692,
+        "duration" : 14197
+      }
+    }, {
+      "uid" : "406316025db61451",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683877404737,
+        "stop" : 1683877416192,
+        "duration" : 11455
+      }
+    }, {
+      "uid" : "d1d53bfa11e288cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683875377622,
+        "stop" : 1683875387951,
+        "duration" : 10329
+      }
+    }, {
+      "uid" : "89bfedcb8a9d7451",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683874035567,
+        "stop" : 1683874046259,
+        "duration" : 10692
+      }
+    }, {
+      "uid" : "33a2136bcdf9013f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683873729750,
+        "stop" : 1683873740422,
+        "duration" : 10672
+      }
+    }, {
+      "uid" : "da7bc28ec2fa1f16",
+      "status" : "skipped",
+      "statusDetails" : "unknown error: net::ERR_ADDRESS_UNREACHABLE\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [255dace9079ea78d88fb95460dfb9d74, get {url=http://40.65.99.236:49004/web}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64758}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64758/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 255dace9079ea78d88fb95460dfb9d74",
+      "time" : {
+        "start" : 1683819296173,
+        "stop" : 1683819296174,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "23d3fd909229982f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683818325716,
+        "stop" : 1683818356217,
+        "duration" : 30501
+      }
+    }, {
+      "uid" : "345a16ada7a08b20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683818204205,
+        "stop" : 1683818239369,
+        "duration" : 35164
+      }
+    }, {
+      "uid" : "4f1f63d6831cc82c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683813695751,
+        "stop" : 1683813712488,
+        "duration" : 16737
+      }
+    }, {
+      "uid" : "e9ebbb90d4a1e763",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683813525582,
+        "stop" : 1683813545279,
+        "duration" : 19697
+      }
+    }, {
+      "uid" : "26be0f7832f02d3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683813399996,
+        "stop" : 1683813427390,
+        "duration" : 27394
+      }
+    }, {
+      "uid" : "d8395264046c415c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683810848000,
+        "stop" : 1683810870522,
+        "duration" : 22522
+      }
+    }, {
+      "uid" : "2cae9853f04927b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683806770718,
+        "stop" : 1683806804651,
+        "duration" : 33933
+      }
+    }, {
+      "uid" : "ded853a0d8f6da1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683805637874,
+        "stop" : 1683805672043,
+        "duration" : 34169
+      }
+    }, {
+      "uid" : "5f52b0a43f2eb2e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683805347043,
+        "stop" : 1683805410645,
+        "duration" : 63602
+      }
+    }, {
+      "uid" : "a838b484a245425e",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [51d66022c92e20061bcf67b194e92c03, findElement {using=xpath, value=//a[@href='/web?db=sprint_db_automation']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57398/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 51d66022c92e20061bcf67b194e92c03",
+      "time" : {
+        "start" : 1683805134753,
+        "stop" : 1683805134754,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ef80d02924088a0a",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7459264746babe274061223bff8341e1, findElement {using=css selector, value=input[id=\"login\"]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57175/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7459264746babe274061223bff8341e1",
+      "time" : {
+        "start" : 1683804072097,
+        "stop" : 1683804072139,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "f235dc0433c46d47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683803593646,
+        "stop" : 1683803660074,
+        "duration" : 66428
+      }
+    }, {
+      "uid" : "951f8ea48f25b8ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683801025980,
+        "stop" : 1683801047975,
+        "duration" : 21995
+      }
+    }, {
+      "uid" : "4486beed01c5892d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683800865409,
+        "stop" : 1683800888562,
+        "duration" : 23153
+      }
+    }, {
+      "uid" : "ceba2d5e0546e7e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683800643128,
+        "stop" : 1683800665291,
+        "duration" : 22163
+      }
+    }, {
+      "uid" : "ddc67404b3a818f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683800336501,
+        "stop" : 1683800353506,
+        "duration" : 17005
+      }
+    }, {
+      "uid" : "27e4b4b481fddff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683800028006,
+        "stop" : 1683800045973,
+        "duration" : 17967
+      }
+    }, {
+      "uid" : "1e7ba4c63e2561f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683798280443,
+        "stop" : 1683798294061,
+        "duration" : 13618
+      }
+    }, {
+      "uid" : "7826566b08ba1e2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683797906862,
+        "stop" : 1683797935117,
+        "duration" : 28255
+      }
+    }, {
+      "uid" : "2acaf9186eaf4f67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683797778870,
+        "stop" : 1683797805314,
+        "duration" : 26444
+      }
+    }, {
+      "uid" : "2eac7e76b9dd5a03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683797679637,
+        "stop" : 1683797700290,
+        "duration" : 20653
+      }
+    }, {
+      "uid" : "ce5072e7d59b07b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683797439731,
+        "stop" : 1683797602511,
+        "duration" : 162780
+      }
+    }, {
+      "uid" : "8b6fb7d6fbf262c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683796381529,
+        "stop" : 1683796410740,
+        "duration" : 29211
+      }
+    }, {
+      "uid" : "2c1975690423a717",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683795833877,
+        "stop" : 1683795846171,
+        "duration" : 12294
+      }
+    }, {
+      "uid" : "2fd4c6a643174851",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683795703757,
+        "stop" : 1683795744046,
+        "duration" : 40289
+      }
+    }, {
+      "uid" : "a5644f59ae03541f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683795394376,
+        "stop" : 1683795417223,
+        "duration" : 22847
+      }
+    }, {
+      "uid" : "9586ecaebe8752cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683795065160,
+        "stop" : 1683795097126,
+        "duration" : 31966
+      }
+    }, {
+      "uid" : "6d018fc60e4f0a12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683791060615,
+        "stop" : 1683791071039,
+        "duration" : 10424
+      }
+    }, {
+      "uid" : "8dc97af5a3f50f28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683790707860,
+        "stop" : 1683790722352,
+        "duration" : 14492
+      }
+    }, {
+      "uid" : "5e79c2c2909e0848",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683790337700,
+        "stop" : 1683790350314,
+        "duration" : 12614
+      }
+    }, {
+      "uid" : "89d69796adf22c63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683790031189,
+        "stop" : 1683790044994,
+        "duration" : 13805
+      }
+    }, {
+      "uid" : "e5c6f47c32f990b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683789274425,
+        "stop" : 1683789287419,
+        "duration" : 12994
+      }
+    }, {
+      "uid" : "172adf1db5851183",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683788696858,
+        "stop" : 1683788759410,
+        "duration" : 62552
+      }
+    }, {
+      "uid" : "85ea6c75b1d7915",
+      "status" : "skipped",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=112.0.5615.140)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3d84a496675a84ef05e9cefcfdd062f8, findElement {using=xpath, value=//a[@href='/web?db=sprint_db_automation']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\ABDELR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57703/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3d84a496675a84ef05e9cefcfdd062f8",
+      "time" : {
+        "start" : 1683787970750,
+        "stop" : 1683787970751,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2ae13d221a05c47b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683787867269,
+        "stop" : 1683787892257,
+        "duration" : 24988
+      }
+    }, {
+      "uid" : "f1d70d8c4f4ad8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683787673502,
+        "stop" : 1683787690441,
+        "duration" : 16939
+      }
+    }, {
+      "uid" : "a7bdefee049fc1df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683787216186,
+        "stop" : 1683787227102,
+        "duration" : 10916
+      }
+    }, {
+      "uid" : "7b10a216d855ff3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683786798899,
+        "stop" : 1683786830705,
+        "duration" : 31806
+      }
+    }, {
+      "uid" : "df713a880893371e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683734448119,
+        "stop" : 1683734468291,
+        "duration" : 20172
+      }
+    }, {
+      "uid" : "a86e45c803f4d307",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683732066635,
+        "stop" : 1683732081583,
+        "duration" : 14948
+      }
+    }, {
+      "uid" : "e962cf26b2f5cf23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683726010523,
+        "stop" : 1683726024904,
+        "duration" : 14381
+      }
+    }, {
+      "uid" : "7118f5431f9ebe0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683491999584,
+        "stop" : 1683492011841,
+        "duration" : 12257
+      }
+    }, {
+      "uid" : "48be27bca4703efa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683491812980,
+        "stop" : 1683491832602,
+        "duration" : 19622
+      }
+    }, {
+      "uid" : "60a2b57ca99d1bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683491752484,
+        "stop" : 1683491759740,
+        "duration" : 7256
+      }
+    }, {
+      "uid" : "a266177460d64015",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683488828533,
+        "stop" : 1683488844230,
+        "duration" : 15697
+      }
+    }, {
+      "uid" : "7c347cd7f621d830",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683466729103,
+        "stop" : 1683466745909,
+        "duration" : 16806
+      }
+    }, {
+      "uid" : "c8e9cebfd6182d13",
+      "status" : "skipped",
+      "statusDetails" : "'void org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(org.openqa.selenium.remote.service.DriverService, java.util.Map)'",
+      "time" : {
+        "start" : 1683466402122,
+        "stop" : 1683466402124,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "9e2e21d028b32e3e",
+      "status" : "skipped",
+      "statusDetails" : "'void org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(org.openqa.selenium.remote.service.DriverService, java.util.Map)'",
+      "time" : {
+        "start" : 1683466040093,
+        "stop" : 1683466040096,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "5c819c629d5f5be6",
+      "status" : "broken",
+      "statusDetails" : "Element <input id=\"login\" class=\"form-control\" name=\"login\" type=\"text\"> is not reachable by keyboard\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [30d6b40a-b806-4af5-9071-be2a76aadef6, sendKeysToElement {id=7fe5f94c-a7b4-4bcf-a0e3-e09571b9b476, value=[Ljava.lang.CharSequence;@40dee07b}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:debuggerAddress: 127.0.0.1:20493, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27216, moz:profile: C:\\Users\\ABDELR~1\\AppData\\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20493/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on WINDOWS (30d6b40a-b806-4af5-9071-be2a76aadef6)] -> css selector: input[id=\"login\"]]\nSession ID: 30d6b40a-b806-4af5-9071-be2a76aadef6",
+      "time" : {
+        "start" : 1683465761247,
+        "stop" : 1683465761433,
+        "duration" : 186
+      }
+    }, {
+      "uid" : "cc8bec5f0f8efd08",
+      "status" : "skipped",
+      "statusDetails" : "Unable to establish websocket connection to http://localhost:51096/devtools/browser/60608c0d-b99e-403a-a70c-13984f350cfd\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1683465343442,
+        "stop" : 1683465343446,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "57a4997907c179a9",
+      "status" : "skipped",
+      "statusDetails" : "Unable to establish websocket connection to http://localhost:51049/devtools/browser/3a4d4d0a-894f-4d75-a16f-2c021c9aca6d\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1683465276911,
+        "stop" : 1683465276916,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "829b52d662c17411",
+      "status" : "skipped",
+      "statusDetails" : "Unable to establish websocket connection to http://localhost:50978/devtools/browser/d0bc21e8-fa4e-4c83-89a7-97d98a89b41f\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1683465131554,
+        "stop" : 1683465131558,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e25d1934e2c0c149.json",
+  "parameterValues" : [ ]
+}

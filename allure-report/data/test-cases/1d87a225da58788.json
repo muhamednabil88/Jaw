@@ -1,0 +1,1157 @@
+{
+  "uid" : "1d87a225da58788",
+  "name" : "changeLanguageToEnglish",
+  "fullName" : "com.pilot.pilot_project.LoginTest.changeLanguageToEnglish",
+  "historyId" : "8eba7562c5ad3e022729655b7cd1174a",
+  "time" : {
+    "start" : 1683109272778,
+    "stop" : 1683109272779,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fc6c26a0c5a50679956bc265ecf3e161, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52836/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fc6c26a0c5a50679956bc265ecf3e161",
+  "statusTrace" : "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fc6c26a0c5a50679956bc265ecf3e161, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52836/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fc6c26a0c5a50679956bc265ecf3e161\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:296)\r\n\tat com.pilot.pilot_project.TestBase.setUp(TestBase.java:28)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)\r\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\r\n\tat org.testng.TestRunner.run(TestRunner.java:587)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\r\n\tat org.testng.TestNG.run(TestNG.java:1007)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\r\nCaused by: java.io.UncheckedIOException: java.io.IOException: An existing connection was forcibly closed by the remote host\r\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)\r\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\r\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)\r\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\t... 33 more\r\nCaused by: java.io.IOException: An existing connection was forcibly closed by the remote host\r\n\tat sun.nio.ch.SocketDispatcher.read0(Native Method)\r\n\tat sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)\r\n\tat sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)\r\n\tat sun.nio.ch.IOUtil.read(IOUtil.java:192)\r\n\tat sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)\r\n\tat io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)\r\n\tat io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)\r\n\tat io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)\r\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)\r\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)\r\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)\r\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)\r\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)\r\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)\r\n\tat io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)\r\n\tat io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1683109272773,
+      "stop" : 1683109272773,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1683109272781,
+      "stop" : 1683109272781,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.pilot.pilot_project.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.pilot.pilot_project.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "changeLanguageToEnglish"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Pilot Project"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.pilot.pilot_project.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SBT2873"
+  }, {
+    "name" : "thread",
+    "value" : "3980@DESKTOP-SBT2873.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a8b78d7a1d354eb2",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fc6c26a0c5a50679956bc265ecf3e161, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52836/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fc6c26a0c5a50679956bc265ecf3e161",
+      "time" : {
+        "start" : 1683109272766,
+        "stop" : 1683109272767,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b086611dffaa4e3b",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fc6c26a0c5a50679956bc265ecf3e161, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52836/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fc6c26a0c5a50679956bc265ecf3e161",
+      "time" : {
+        "start" : 1683109272746,
+        "stop" : 1683109272747,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e9ed50b016bd7311",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fc6c26a0c5a50679956bc265ecf3e161, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52836/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fc6c26a0c5a50679956bc265ecf3e161",
+      "time" : {
+        "start" : 1683109272737,
+        "stop" : 1683109272738,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "bd2f19bb34d09526",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fc6c26a0c5a50679956bc265ecf3e161, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52836/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fc6c26a0c5a50679956bc265ecf3e161",
+      "time" : {
+        "start" : 1683109272653,
+        "stop" : 1683109272654,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6bdf4d673d75a3f8",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fc6c26a0c5a50679956bc265ecf3e161, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52836/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fc6c26a0c5a50679956bc265ecf3e161",
+      "time" : {
+        "start" : 1683109272612,
+        "stop" : 1683109272623,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "6b9754fe82e9a79b",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fc6c26a0c5a50679956bc265ecf3e161, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52836/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fc6c26a0c5a50679956bc265ecf3e161",
+      "time" : {
+        "start" : 1683109272570,
+        "stop" : 1683109272571,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f36db6d8ad1fc6cd",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fc6c26a0c5a50679956bc265ecf3e161, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52836/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fc6c26a0c5a50679956bc265ecf3e161",
+      "time" : {
+        "start" : 1683109272560,
+        "stop" : 1683109272561,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "67353025a2c8c2d4",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fc6c26a0c5a50679956bc265ecf3e161, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52836/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fc6c26a0c5a50679956bc265ecf3e161",
+      "time" : {
+        "start" : 1683109272513,
+        "stop" : 1683109272514,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e62b21f5f0033e3",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [45d7f87607a2deb40410084d1bbb701c, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52597/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 45d7f87607a2deb40410084d1bbb701c",
+      "time" : {
+        "start" : 1683109139857,
+        "stop" : 1683109139857,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2c68287f1a7b39da",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [45d7f87607a2deb40410084d1bbb701c, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52597/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 45d7f87607a2deb40410084d1bbb701c",
+      "time" : {
+        "start" : 1683109139851,
+        "stop" : 1683109139852,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4c61d24b862e1809",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [45d7f87607a2deb40410084d1bbb701c, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52597/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 45d7f87607a2deb40410084d1bbb701c",
+      "time" : {
+        "start" : 1683109139835,
+        "stop" : 1683109139835,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b661c6e39b1fce58",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [45d7f87607a2deb40410084d1bbb701c, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52597/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 45d7f87607a2deb40410084d1bbb701c",
+      "time" : {
+        "start" : 1683109139829,
+        "stop" : 1683109139830,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c3cea05279615f64",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [45d7f87607a2deb40410084d1bbb701c, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52597/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 45d7f87607a2deb40410084d1bbb701c",
+      "time" : {
+        "start" : 1683109139797,
+        "stop" : 1683109139798,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "65410321f42aaa8c",
+      "status" : "skipped",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [45d7f87607a2deb40410084d1bbb701c, get {url=https://demo.sejlat.net/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52597/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 45d7f87607a2deb40410084d1bbb701c",
+      "time" : {
+        "start" : 1683109139793,
+        "stop" : 1683109139793,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ee9c712e90bb233d",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [958a83081a9844597d6058712df77001, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52443/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 958a83081a9844597d6058712df77001",
+      "time" : {
+        "start" : 1683109066003,
+        "stop" : 1683109066003,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "870fe425e94f1df9",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [958a83081a9844597d6058712df77001, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52443/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 958a83081a9844597d6058712df77001",
+      "time" : {
+        "start" : 1683109065987,
+        "stop" : 1683109065987,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9599f5e07b11741c",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [958a83081a9844597d6058712df77001, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52443/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 958a83081a9844597d6058712df77001",
+      "time" : {
+        "start" : 1683109065972,
+        "stop" : 1683109065972,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "64871dc4ef143d59",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [958a83081a9844597d6058712df77001, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52443/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 958a83081a9844597d6058712df77001",
+      "time" : {
+        "start" : 1683109065951,
+        "stop" : 1683109065951,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4856d0109d77eddd",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [958a83081a9844597d6058712df77001, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52443/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 958a83081a9844597d6058712df77001",
+      "time" : {
+        "start" : 1683109065917,
+        "stop" : 1683109065917,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "451f09b629f94ef3",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [958a83081a9844597d6058712df77001, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52443/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 958a83081a9844597d6058712df77001",
+      "time" : {
+        "start" : 1683109065886,
+        "stop" : 1683109065886,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "86c54cd0238b6b14",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [958a83081a9844597d6058712df77001, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52443/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 958a83081a9844597d6058712df77001",
+      "time" : {
+        "start" : 1683109065886,
+        "stop" : 1683109065886,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c9146a9d9d3f2330",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [958a83081a9844597d6058712df77001, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52443/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 958a83081a9844597d6058712df77001",
+      "time" : {
+        "start" : 1683109065861,
+        "stop" : 1683109065861,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3544fc7b5c2d2870",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [958a83081a9844597d6058712df77001, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52443/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 958a83081a9844597d6058712df77001",
+      "time" : {
+        "start" : 1683109065828,
+        "stop" : 1683109065828,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "41042ad67598186f",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [958a83081a9844597d6058712df77001, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52443/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 958a83081a9844597d6058712df77001",
+      "time" : {
+        "start" : 1683109065806,
+        "stop" : 1683109065806,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "13a70e150a4d5fcb",
+      "status" : "skipped",
+      "statusDetails" : "disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=112.0.5615.138)\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [958a83081a9844597d6058712df77001, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52443/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 958a83081a9844597d6058712df77001",
+      "time" : {
+        "start" : 1683109065775,
+        "stop" : 1683109065775,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a32d8d706c355711",
+      "status" : "skipped",
+      "statusDetails" : "Unable to find element with locator By.xpath: //*[@id=\"__next\"]/div[2]/div[1]/div/div/div/h2\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1683109006948,
+        "stop" : 1683109006951,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "e8bdc7ebe5972b2d",
+      "status" : "skipped",
+      "statusDetails" : "Unable to find element with locator By.xpath: //*[@id=\"__next\"]/div[2]/div[1]/div/div/div/h2\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1683109006926,
+        "stop" : 1683109006927,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "49ae05272bd50709",
+      "status" : "skipped",
+      "statusDetails" : "Unable to find element with locator By.xpath: //*[@id=\"__next\"]/div[2]/div[1]/div/div/div/h2\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1683109006919,
+        "stop" : 1683109006919,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "46549564838cbc9b",
+      "status" : "skipped",
+      "statusDetails" : "Unable to find element with locator By.xpath: //*[@id=\"__next\"]/div[2]/div[1]/div/div/div/h2\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1683109006901,
+        "stop" : 1683109006902,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "54dd3d4ab0b33357",
+      "status" : "skipped",
+      "statusDetails" : "Unable to find element with locator By.xpath: //*[@id=\"__next\"]/div[2]/div[1]/div/div/div/h2\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1683109006872,
+        "stop" : 1683109006873,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e1a5830f879322b9",
+      "status" : "skipped",
+      "statusDetails" : "Unable to find element with locator By.xpath: //*[@id=\"__next\"]/div[2]/div[1]/div/div/div/h2\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1683109006857,
+        "stop" : 1683109006858,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "86938fd309028aff",
+      "status" : "skipped",
+      "statusDetails" : "Unable to find element with locator By.xpath: //*[@id=\"__next\"]/div[2]/div[1]/div/div/div/h2\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1683109006844,
+        "stop" : 1683109006845,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "52cd73738657a6bc",
+      "status" : "skipped",
+      "statusDetails" : "Unable to find element with locator By.xpath: //*[@id=\"__next\"]/div[2]/div[1]/div/div/div/h2\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1683109006820,
+        "stop" : 1683109006822,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d9e70dcd62856b0b",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2617122947a31640d8fdcbee2fe547e5, clickElement {id=6d6cf861-fb97-40f9-ad9f-7f20ea6ce101}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2617122947a31640d8fdcbee2fe547e5)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 2617122947a31640d8fdcbee2fe547e5",
+      "time" : {
+        "start" : 1683108513980,
+        "stop" : 1683108513981,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b2f5f360a94803f0",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2617122947a31640d8fdcbee2fe547e5, clickElement {id=6d6cf861-fb97-40f9-ad9f-7f20ea6ce101}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2617122947a31640d8fdcbee2fe547e5)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 2617122947a31640d8fdcbee2fe547e5",
+      "time" : {
+        "start" : 1683108513976,
+        "stop" : 1683108513976,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c4d89973b32a509c",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2617122947a31640d8fdcbee2fe547e5, clickElement {id=6d6cf861-fb97-40f9-ad9f-7f20ea6ce101}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2617122947a31640d8fdcbee2fe547e5)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 2617122947a31640d8fdcbee2fe547e5",
+      "time" : {
+        "start" : 1683108513972,
+        "stop" : 1683108513972,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "513449c6d18a12",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2617122947a31640d8fdcbee2fe547e5, clickElement {id=6d6cf861-fb97-40f9-ad9f-7f20ea6ce101}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2617122947a31640d8fdcbee2fe547e5)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 2617122947a31640d8fdcbee2fe547e5",
+      "time" : {
+        "start" : 1683108513966,
+        "stop" : 1683108513967,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3cc3982d66e129a3",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2617122947a31640d8fdcbee2fe547e5, clickElement {id=6d6cf861-fb97-40f9-ad9f-7f20ea6ce101}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2617122947a31640d8fdcbee2fe547e5)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 2617122947a31640d8fdcbee2fe547e5",
+      "time" : {
+        "start" : 1683108513962,
+        "stop" : 1683108513962,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7ada0df1beb3a04c",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2617122947a31640d8fdcbee2fe547e5, clickElement {id=6d6cf861-fb97-40f9-ad9f-7f20ea6ce101}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2617122947a31640d8fdcbee2fe547e5)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 2617122947a31640d8fdcbee2fe547e5",
+      "time" : {
+        "start" : 1683108513957,
+        "stop" : 1683108513958,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "724363ea43df7112",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2617122947a31640d8fdcbee2fe547e5, clickElement {id=6d6cf861-fb97-40f9-ad9f-7f20ea6ce101}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2617122947a31640d8fdcbee2fe547e5)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 2617122947a31640d8fdcbee2fe547e5",
+      "time" : {
+        "start" : 1683108513952,
+        "stop" : 1683108513953,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b4cc612ae74215cf",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2617122947a31640d8fdcbee2fe547e5, clickElement {id=6d6cf861-fb97-40f9-ad9f-7f20ea6ce101}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2617122947a31640d8fdcbee2fe547e5)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 2617122947a31640d8fdcbee2fe547e5",
+      "time" : {
+        "start" : 1683108513946,
+        "stop" : 1683108513947,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "97d995f4333fc970",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2617122947a31640d8fdcbee2fe547e5, clickElement {id=6d6cf861-fb97-40f9-ad9f-7f20ea6ce101}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2617122947a31640d8fdcbee2fe547e5)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 2617122947a31640d8fdcbee2fe547e5",
+      "time" : {
+        "start" : 1683108513934,
+        "stop" : 1683108513935,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e03df7d9e844b756",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2617122947a31640d8fdcbee2fe547e5, clickElement {id=6d6cf861-fb97-40f9-ad9f-7f20ea6ce101}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2617122947a31640d8fdcbee2fe547e5)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 2617122947a31640d8fdcbee2fe547e5",
+      "time" : {
+        "start" : 1683108513929,
+        "stop" : 1683108513930,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7efdd4197093265a",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2617122947a31640d8fdcbee2fe547e5, clickElement {id=6d6cf861-fb97-40f9-ad9f-7f20ea6ce101}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2617122947a31640d8fdcbee2fe547e5)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 2617122947a31640d8fdcbee2fe547e5",
+      "time" : {
+        "start" : 1683108513923,
+        "stop" : 1683108513924,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b411654fc7432e88",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2617122947a31640d8fdcbee2fe547e5, clickElement {id=6d6cf861-fb97-40f9-ad9f-7f20ea6ce101}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51707/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2617122947a31640d8fdcbee2fe547e5)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 2617122947a31640d8fdcbee2fe547e5",
+      "time" : {
+        "start" : 1683108513913,
+        "stop" : 1683108513915,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "90eadfc9d1a222ae",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f764aa8d9072bc9ff3ba46732aff4ef, clickElement {id=4ee8ff04-8949-4160-a9a3-30005a99a566}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9f764aa8d9072bc9ff3ba46732aff4ef)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 9f764aa8d9072bc9ff3ba46732aff4ef",
+      "time" : {
+        "start" : 1683108479897,
+        "stop" : 1683108479898,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3ef566d90fc3dc8b",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f764aa8d9072bc9ff3ba46732aff4ef, clickElement {id=4ee8ff04-8949-4160-a9a3-30005a99a566}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9f764aa8d9072bc9ff3ba46732aff4ef)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 9f764aa8d9072bc9ff3ba46732aff4ef",
+      "time" : {
+        "start" : 1683108479893,
+        "stop" : 1683108479894,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "86116f13911be55b",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f764aa8d9072bc9ff3ba46732aff4ef, clickElement {id=4ee8ff04-8949-4160-a9a3-30005a99a566}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9f764aa8d9072bc9ff3ba46732aff4ef)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 9f764aa8d9072bc9ff3ba46732aff4ef",
+      "time" : {
+        "start" : 1683108479889,
+        "stop" : 1683108479889,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "361b6a7c3ac5c328",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f764aa8d9072bc9ff3ba46732aff4ef, clickElement {id=4ee8ff04-8949-4160-a9a3-30005a99a566}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9f764aa8d9072bc9ff3ba46732aff4ef)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 9f764aa8d9072bc9ff3ba46732aff4ef",
+      "time" : {
+        "start" : 1683108479884,
+        "stop" : 1683108479884,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f7e6578bf60521d1",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f764aa8d9072bc9ff3ba46732aff4ef, clickElement {id=4ee8ff04-8949-4160-a9a3-30005a99a566}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9f764aa8d9072bc9ff3ba46732aff4ef)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 9f764aa8d9072bc9ff3ba46732aff4ef",
+      "time" : {
+        "start" : 1683108479849,
+        "stop" : 1683108479850,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c673741687629778",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f764aa8d9072bc9ff3ba46732aff4ef, clickElement {id=4ee8ff04-8949-4160-a9a3-30005a99a566}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9f764aa8d9072bc9ff3ba46732aff4ef)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 9f764aa8d9072bc9ff3ba46732aff4ef",
+      "time" : {
+        "start" : 1683108479843,
+        "stop" : 1683108479844,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7490bd2a5cf6de76",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f764aa8d9072bc9ff3ba46732aff4ef, clickElement {id=4ee8ff04-8949-4160-a9a3-30005a99a566}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9f764aa8d9072bc9ff3ba46732aff4ef)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 9f764aa8d9072bc9ff3ba46732aff4ef",
+      "time" : {
+        "start" : 1683108479839,
+        "stop" : 1683108479840,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3a4baf6da76f478a",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f764aa8d9072bc9ff3ba46732aff4ef, clickElement {id=4ee8ff04-8949-4160-a9a3-30005a99a566}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9f764aa8d9072bc9ff3ba46732aff4ef)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 9f764aa8d9072bc9ff3ba46732aff4ef",
+      "time" : {
+        "start" : 1683108479835,
+        "stop" : 1683108479836,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "137615be47e27c0f",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f764aa8d9072bc9ff3ba46732aff4ef, clickElement {id=4ee8ff04-8949-4160-a9a3-30005a99a566}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9f764aa8d9072bc9ff3ba46732aff4ef)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 9f764aa8d9072bc9ff3ba46732aff4ef",
+      "time" : {
+        "start" : 1683108479808,
+        "stop" : 1683108479809,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "caccd5f0a4a53817",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f764aa8d9072bc9ff3ba46732aff4ef, clickElement {id=4ee8ff04-8949-4160-a9a3-30005a99a566}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9f764aa8d9072bc9ff3ba46732aff4ef)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 9f764aa8d9072bc9ff3ba46732aff4ef",
+      "time" : {
+        "start" : 1683108479803,
+        "stop" : 1683108479804,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "645c06feddff6c02",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f764aa8d9072bc9ff3ba46732aff4ef, clickElement {id=4ee8ff04-8949-4160-a9a3-30005a99a566}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9f764aa8d9072bc9ff3ba46732aff4ef)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 9f764aa8d9072bc9ff3ba46732aff4ef",
+      "time" : {
+        "start" : 1683108479796,
+        "stop" : 1683108479797,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4f3742987a5ffd9",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=112.0.5615.138)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.7.2', revision: '4d4020c3b7'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f764aa8d9072bc9ff3ba46732aff4ef, clickElement {id=4ee8ff04-8949-4160-a9a3-30005a99a566}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51625/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9f764aa8d9072bc9ff3ba46732aff4ef)] -> xpath: /html/body/div/div[2]/div[1]/header/div[1]/div/div[1]/div[1]/a]\nSession ID: 9f764aa8d9072bc9ff3ba46732aff4ef",
+      "time" : {
+        "start" : 1683108479788,
+        "stop" : 1683108479790,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "550143637478762a",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106882649,
+        "stop" : 1683106882649,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3b22a51db4c608cd",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106882642,
+        "stop" : 1683106882642,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9546a3bb185eede3",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106882634,
+        "stop" : 1683106882635,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "195ee8f77f260660",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106882620,
+        "stop" : 1683106882621,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "fa2bb8b20469146a",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106882605,
+        "stop" : 1683106882605,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "52a2a154fd1baaed",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106882593,
+        "stop" : 1683106882593,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "82e4c1b371d5b982",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106882586,
+        "stop" : 1683106882586,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "efca28a3cc00ab86",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106882580,
+        "stop" : 1683106882580,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9f476fd6ebf7ab2e",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106882573,
+        "stop" : 1683106882574,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9dcb7967ec61bfe",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106882568,
+        "stop" : 1683106882569,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "38ef440fc120b317",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106882563,
+        "stop" : 1683106882563,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bb0eac1c1c358f2e",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106622554,
+        "stop" : 1683106622555,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d5be7ef8e7b9aa31",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106622549,
+        "stop" : 1683106622549,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f8179a4d3e12f6b1",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106622532,
+        "stop" : 1683106622532,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f3f437d8bd456c6a",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106622523,
+        "stop" : 1683106622523,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2e822b7f66875694",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106622513,
+        "stop" : 1683106622514,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "56b8548fd1b81d25",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106622507,
+        "stop" : 1683106622507,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e5c29ae899b927a4",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106622502,
+        "stop" : 1683106622502,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aa93724ee5c5bf7a",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106622497,
+        "stop" : 1683106622497,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f4bd7b30744a5734",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106622490,
+        "stop" : 1683106622491,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4da772d9546543f7",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106622486,
+        "stop" : 1683106622486,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "631f171b228e3f05",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106622467,
+        "stop" : 1683106622468,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f54fe5cbb7301eb0",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106312904,
+        "stop" : 1683106312905,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d5f8075b21d5296f",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106312895,
+        "stop" : 1683106312896,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "16079eff6e6fb0bf",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106312864,
+        "stop" : 1683106312864,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b417242eca2baeaf",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106312855,
+        "stop" : 1683106312855,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "89a4cae09ef6eae3",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106312832,
+        "stop" : 1683106312833,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5c9ada6a5430d31",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106312800,
+        "stop" : 1683106312801,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "10d31e965406c2e5",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106312791,
+        "stop" : 1683106312791,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "298c2a58de1e7b9e",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106312783,
+        "stop" : 1683106312784,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "45eafc101372c545",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106312749,
+        "stop" : 1683106312749,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "47b97f46ada1492d",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106312718,
+        "stop" : 1683106312718,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8f8331123fa1a2d3",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106312691,
+        "stop" : 1683106312691,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d3d828f17d6e38ec",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106080237,
+        "stop" : 1683106080237,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "130bd1f5cad7c40f",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106080228,
+        "stop" : 1683106080228,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f752ba4653c091a5",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106080221,
+        "stop" : 1683106080221,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "89e7eac577c68688",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106080210,
+        "stop" : 1683106080211,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "12520db9eec3e9a2",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106080195,
+        "stop" : 1683106080195,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9c1a056436a60bb2",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106080178,
+        "stop" : 1683106080178,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b90371199e04d5cd",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106080171,
+        "stop" : 1683106080171,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "23902599df484507",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106080164,
+        "stop" : 1683106080164,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6ece81cb84ca816a",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106080156,
+        "stop" : 1683106080156,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1cb91a10b4499f26",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106080149,
+        "stop" : 1683106080149,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c3229e88595c9e2b",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683106080141,
+        "stop" : 1683106080141,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9d659167aacdcb9",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105871546,
+        "stop" : 1683105871546,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ba6a58b901c471c3",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105871528,
+        "stop" : 1683105871528,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "18b5dad318c5f0f3",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105871518,
+        "stop" : 1683105871518,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "34edce7cdda47a29",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105871514,
+        "stop" : 1683105871514,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9d1880261405171c",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105871499,
+        "stop" : 1683105871499,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a9c4746af18840af",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105871365,
+        "stop" : 1683105871365,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "963057ee86612478",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105871359,
+        "stop" : 1683105871360,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a6e7a661fd22933e",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105871352,
+        "stop" : 1683105871352,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "adc19ddb87338bb4",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105871346,
+        "stop" : 1683105871346,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bd97703d805562f3",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105871340,
+        "stop" : 1683105871340,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d5bad3fda8e29fd9",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105871330,
+        "stop" : 1683105871330,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e8875151ed0bc1ff",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105718919,
+        "stop" : 1683105718924,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "c2c5b9658565bf0c",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105631235,
+        "stop" : 1683105631239,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "aa0c06d1984eaea3",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1683105613146,
+        "stop" : 1683105613150,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "c852214294626c66",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1683104180118,
+        "stop" : 1683104180124,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "e428d9c6b0716d27",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell",
+      "time" : {
+        "start" : 1683104012075,
+        "stop" : 1683104012079,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "3b7349c1ce39e403",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682850243433,
+        "stop" : 1682850244007,
+        "duration" : 574
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d87a225da58788.json",
+  "parameterValues" : [ ]
+}
